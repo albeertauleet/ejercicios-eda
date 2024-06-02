@@ -51,7 +51,7 @@ void bfs(const vector<vector<string>>& matriu, vector<vector<bool>>& vis, int x,
         x = q.front().first;
         y = q.front().second;
         q.pop();
-        for (int i = 0; i < 4; ++i) // Cambia 4 a 8 para considerar todas las direcciones diagonales
+        for (int i = 0; i < 4; ++i)
         {
             int nx = x + DI[i];
             int ny = y + DJ[i];
